@@ -75,7 +75,7 @@ sudo apt install -y pybind11-dev
 ### 2️⃣ Build the C++ Module
 ```bash
 # Navigate to the project directory
-cd fastvision/
+cd visioncraft/
 
 # Create a build directory if it doesn't exist
 mkdir -p build
