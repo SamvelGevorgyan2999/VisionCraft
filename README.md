@@ -72,6 +72,22 @@ sudo apt install -y libopencv-dev
 sudo apt install -y pybind11-dev
 
 ```
+### 2️⃣ Build the C++ Module
+```bash
+# Navigate to the project directory
+cd fastvision/
+
+# Create a build directory if it doesn't exist
+mkdir -p build
+cd build
+
+# Run CMake to generate the build files
+cmake ..
+
+# Run make to compile the C++ code
+make
+
+```
 
 If the build is successful, a new file named visioncraft_cpp.cpython-*.so will be created or updated inside the build directory.   <br />
 Move visioncraft_cpp.cpython-*.so to where the file gui.py is located   <br />
