@@ -36,11 +36,11 @@ The core idea is simple:
 
 ## 📂 Project Structure
 
-visioncraft/  \br
-├── build/                  # Created during the build process  \br
-├── image_processor.cpp     # C++ source for all image filters  \br
-├── gui.py                  # Python source for the Tkinter UI  \br
-└── CMakeLists.txt          # Build script for CMake  \br
+visioncraft/  <\br>
+├── build/                  # Created during the build process  <\br>
+├── image_processor.cpp     # C++ source for all image filters  <\br>
+├── gui.py                  # Python source for the Tkinter UI  <\br>
+└── CMakeLists.txt          # Build script for CMake  <\br>
 
 
 ---
