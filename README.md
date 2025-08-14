@@ -71,7 +71,8 @@ sudo apt install -y libopencv-dev
 # Pybind11 for C++/Python bindings
 sudo apt install -y pybind11-dev
 
-##
+```
+
 If the build is successful, a new file named visioncraft_cpp.cpython-*.so will be created or updated inside the build directory.
 Move visioncraft_cpp.cpython-*.so to where the file gui.py is located
 Run gui.py file
