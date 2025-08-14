@@ -37,7 +37,7 @@ The core idea is simple:
 ## 📂 Project Structure
 
 visioncraft/ <br />
-├── build/                  <br />      
+├── build/                       
 ├── image_processor.cpp     <br />
 ├── gui.py                  <br />
 └── CMakeLists.txt          <br />
