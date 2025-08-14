@@ -35,9 +35,9 @@ C++/Python Bridge: Pybind11
 
 Build System: CMake
 
-# 📂 Project Structure
-fastvision/
-├── build/                  # Created during the build process
+# 📂 Project Structure 
+visioncraft/  
+├── build/                  # Created during the build process  
 ├── image_processor.cpp     # C++ source for all image filters
 ├── gui.py                  # Python source for the Tkinter UI
 └── CMakeLists.txt          # Build script for CMake
