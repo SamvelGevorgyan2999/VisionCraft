@@ -73,6 +73,6 @@ sudo apt install -y pybind11-dev
 
 ```
 
-If the build is successful, a new file named visioncraft_cpp.cpython-*.so will be created or updated inside the build directory.
-Move visioncraft_cpp.cpython-*.so to where the file gui.py is located
+If the build is successful, a new file named visioncraft_cpp.cpython-*.so will be created or updated inside the build directory.   <br />
+Move visioncraft_cpp.cpython-*.so to where the file gui.py is located   <br />
 Run gui.py file
