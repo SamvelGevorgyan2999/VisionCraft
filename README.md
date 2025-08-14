@@ -5,7 +5,7 @@ VisionCraft is a lightweight but powerful image-processing application that demo
 
 The core principle is to delegate all computationally intensive tasks (like blur, sharpen, edge detection) to a compiled C++ backend, while Python handles the user interface and application logic. The two languages communicate seamlessly through bindings created with pybind11.
 
-✨ Key Features
+# ✨ Key Features
 High-Performance Backend: All image processing is done in C++ for maximum speed.
 
 Image Rotation: Easily rotate images 90 degrees left or right.
@@ -24,7 +24,7 @@ Image Sharpening
 
 Load & Save: Easily open and save images in common formats (.png, .jpg, .bmp).
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 Backend: C++17
 
 Frontend/GUI: Python 3.10+
@@ -35,14 +35,14 @@ C++/Python Bridge: Pybind11
 
 Build System: CMake
 
-📂 Project Structure
+# 📂 Project Structure
 fastvision/
 ├── build/                  # Created during the build process
 ├── image_processor.cpp     # C++ source for all image filters
 ├── gui.py                  # Python source for the Tkinter UI
 └── CMakeLists.txt          # Build script for CMake
 
-🚀 Setup and Usage (for Ubuntu/Debian-based Linux)
+# 🚀 Setup and Usage (for Ubuntu/Debian-based Linux)
 Follow these steps to get the application running on your local machine.
 
 1. Prerequisites
